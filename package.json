@@ -1,0 +1,20 @@
+{
+  "name": "netpulse-realtime-packet-router-simulator",
+  "version": "1.0.0",
+  "description": "Realtime Network Packet Router Simulator & Smart City Multi-Stop Route Optimizer (Full-Stack + PWA/Capacitor Mobile Ready)",
+  "scripts": {
+    "start:backend": "python3 backend/app.py",
+    "test:backend": "python3 backend/test_suite.py",
+    "mobile:init": "npx @capacitor/cli init",
+    "mobile:android": "npx @capacitor/cli add android && npx @capacitor/cli open android",
+    "mobile:ios": "npx @capacitor/cli add ios && npx @capacitor/cli open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/ios": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}
